@@ -1,0 +1,25 @@
+.tab-list {  
+  padding-left: 0;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  color: var(--pinotcolor);
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+  /* background-color: var(--pinotcolor); */
+  color: var(--pinotcolor);
+  font-weight: bold;
+  /* border: solid var(--pinotcolor); */
+}
+
+
+@media screen and (max-width: 768px) {
+  .tab-list-item {
+    font-size: 3vw;
+  }
+}

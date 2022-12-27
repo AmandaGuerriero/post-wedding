@@ -1,0 +1,32 @@
+
+
+/* Footer Styling */
+footer {
+  position: relative;
+	margin-top: -50px; /* negative value of footer height */
+	height: 30px;
+	clear: both;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100vw;
+  background-color: var(--footercolor);
+  color: var(--rieslingcolor);
+  font-style: bold;
+  text-align: center;
+}
+
+made-with-love{
+  font-size: 3vw;
+}
+
+browser-support {
+  font-size: 8px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  footer {
+    font-size: 3vw;
+  }
+}
