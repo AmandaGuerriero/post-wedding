@@ -15,8 +15,7 @@ const Nav = props => {
             >OUR STORY</NavLink>
         </div>
       </div>
-      <div className="header-container">
-        <a href="/" id="background"/>
+      <div id="background" className="header-container">
         {/* <a href="/register-for-updates"><button className="reg-button">Get Updates</button></a> */}
       </div>
     </div>

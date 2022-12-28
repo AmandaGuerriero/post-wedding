@@ -10,6 +10,10 @@
   padding: 0.5rem 0.75rem;
 }
 
+.tab-list-item:hover {
+  cursor: pointer;
+}
+
 .tab-list-active {
   background-color: var(--rieslingcolor);
   /* border: solid var(--pinotcolor); */
