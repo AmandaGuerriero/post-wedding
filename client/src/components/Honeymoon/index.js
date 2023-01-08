@@ -51,7 +51,7 @@ function HoneymoonPhotos() {
         
       </div>
       <div className="honeymoon-column">
-        <p className="honeymoon-shoot-credit">Highlights from our Wedding Day at Casitas in Arroyo Grande, CA</p>
+        <p className="honeymoon-shoot-credit">Highlights from our Honeymoon in Alaska & Hawaii</p>
         <img src='https://res.cloudinary.com/amandaeric/image/upload/f_auto/wedding-photos/honeymoon/alaska-2.jpg' alt='Amanda & Eric' />
         <img src='https://res.cloudinary.com/amandaeric/image/upload/f_auto/wedding-photos/honeymoon/alaska-5.jpg' alt='Amanda & Eric' />
         <img src='https://res.cloudinary.com/amandaeric/image/upload/f_auto/wedding-photos/honeymoon/alaska-13.jpg' alt='Amanda & Eric' />

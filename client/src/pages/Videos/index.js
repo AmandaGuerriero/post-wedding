@@ -19,17 +19,37 @@ const Videos = (props) => {
       <div className="container">
             <iframe className="responsive-iframe" src="https://www.youtube.com/embed/yd4A_j1flMo"></iframe>
           </div>
-       </div> 
-       {/* <div label="Toasts"> 
+       </div>
+      <div label="Toasts"> 
+      <div className="container">
+            <iframe className="responsive-iframe" src="https://www.youtube.com/embed/e-k1D7GtxOg"></iframe>
+          </div>
+       </div>
+       <div label="Eric & Amanda"> 
+      <div className="container">
+            <iframe className="responsive-iframe" src="https://www.youtube.com/embed/TuRQmkbD38Q"></iframe>
+          </div>
+       </div>
+       <div label="Guests"> 
+      <div className="container">
+            <iframe className="responsive-iframe" src="https://www.youtube.com/embed/ItCbJDdhH4E"></iframe>
+          </div>
+       </div>
+       <div label="Details"> 
+      <div className="container">
+            <iframe className="responsive-iframe" src="https://www.youtube.com/embed/FAKdnx1vfXA"></iframe>
+          </div>
+       </div>
+       <div label="The Twist"> 
           <div className="container">
-            <iframe className="responsive-iframe" src="https://www.youtube.com/embed/x2uAcgFJuWg"></iframe>
+            <iframe className="responsive-iframe" src="https://www.youtube.com/embed/7ut2RhJOcoQ"></iframe>
           </div>
         </div> 
-       <div label="Dancing"> 
+       <div label="Proud Mary"> 
           <div className="container">
-            <iframe className="responsive-iframe" src="https://www.youtube.com/embed/yd4A_j1flMo"></iframe>
+            <iframe className="responsive-iframe" src="https://www.youtube.com/embed/0LTTcYVhXaM"></iframe>
           </div>
-       </div>  */}
+       </div>
      </Tabs> 
     </main>
     
