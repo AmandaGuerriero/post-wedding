@@ -1,3 +1,50 @@
+.button-area {
+  width: 40%;
+  margin: auto;
+}
+.youtube-videos {
+  display: flex;
+  background-color: var(--rieslingcolor);
+  font-weight: 500;
+  color: var(--pinotcolor);
+  text-align: center;
+  margin: auto;
+  padding: 12px;
+  padding-left: 40px;
+  padding-right: 40px; 
+  margin-bottom: 20px;
+}
+
+a > .youtube-videos {
+  background-color: var(--rieslingcolor);
+  font-weight: 600;
+  color: var(--footercolor);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+a > .youtube-videos:hover {
+  background-color: var(--rieslingcolor);
+  color: var(--pinotcolor);
+  text-decoration: none;
+  padding: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.youtube-videos:hover {
+  background-color: var(--rieslingcolor);
+  color: var(--pinotcolor);
+  transition: .3s;
+  text-decoration: none;
+}
 .container {
   position: relative;
   overflow: hidden;

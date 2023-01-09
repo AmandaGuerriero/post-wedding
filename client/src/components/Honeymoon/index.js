@@ -7,7 +7,7 @@ function HoneymoonPhotos() {
   return(
     <div>
       <div className="button-area">
-        <a href="https://bit.ly/3Yg9mde" target="_blank"><button className="google-photos" onclick="https://bit.ly/3Yg9mde">View All on Google Photos (to download or order)</button></a>
+        <a href="https://glaciers-mountains-beaches.tumblr.com/" target="_blank"><button className="google-photos" onclick="https://glaciers-mountains-beaches.tumblr.com/">Tumblr Blog</button></a>
       </div>
       <div className="honeymoon-row">
       <div className="honeymoon-column">

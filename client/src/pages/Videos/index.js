@@ -6,9 +6,9 @@ import './style.css';
 const Videos = (props) => {
   return (
     <main>
-      {/* <div>
-        {!isOpen && <RegisterModal />}
-      </div> */}
+       <div className="button-area">
+        <a href="https://youtube.com/playlist?list=PLFYHmoT9Rj6ursjN2V1kCqbr_1ztCGH0o" target="_blank"><button className="youtube-videos" onclick="https://youtube.com/playlist?list=PLFYHmoT9Rj6ursjN2V1kCqbr_1ztCGH0o">View all videos on Youtube</button></a>
+      </div>
       <Tabs> 
       <div label="Ceremony"> 
           <div className="container">
@@ -23,6 +23,11 @@ const Videos = (props) => {
       <div label="Toasts"> 
       <div className="container">
             <iframe className="responsive-iframe" src="https://www.youtube.com/embed/e-k1D7GtxOg"></iframe>
+          </div>
+       </div>
+       <div label="Dancing"> 
+      <div className="container">
+            <iframe className="responsive-iframe" src="https://www.youtube.com/embed/NjkYIb7Qvbs"></iframe>
           </div>
        </div>
        <div label="Eric & Amanda"> 
@@ -47,7 +52,7 @@ const Videos = (props) => {
         </div> 
        <div label="Proud Mary"> 
           <div className="container">
-            <iframe className="responsive-iframe" src="https://www.youtube.com/embed/0LTTcYVhXaM"></iframe>
+            <iframe className="responsive-iframe" src="https://www.youtube.com/embed/X-F15Fpr_KY"></iframe>
           </div>
        </div>
      </Tabs> 
